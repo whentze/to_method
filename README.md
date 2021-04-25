@@ -2,9 +2,17 @@
 
 A utility micro-crate for using [`Into`](::core::convert::Into) more ergonomically.
 
-It exposes a [`To`] extension trait with a [`.to()`](To::to) method
+It exposes a [`To`](crate::To) extension trait with a [`.to()`](To::to) method
 which you can use to invoke [`Into::into`](::core::convert::Into::into)
 while specifying the target type and without having to abandon method-call syntax.
+
+Being a micro-crate, it tries to be as nice of a dependency as possible and has:
+
+- No dependencies of its own
+- No feature flags
+- No `build.rs`
+- `#![no_std]`
+- `#![forbid(unsafe_code)]`
 
 ## Regular `Into` usage
 

@@ -1,6 +1,6 @@
 //! A utility micro-crate for using [`Into`](::core::convert::Into) more ergonomically.
 //!
-//! It exposes a [`To`] extension trait with a [`.to()`](To::to) method
+//! It exposes a [`To`](crate::To) extension trait with a [`.to()`](To::to) method
 //! which you can use to invoke [`Into::into`](::core::convert::Into::into)
 //! while specifying the target type and without having to abandon method-call syntax.
 //!
