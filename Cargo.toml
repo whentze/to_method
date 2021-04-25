@@ -1,7 +1,11 @@
 [package]
 name = "to_method"
-version = "0.1.0"
-authors = ["muvlon <muvlon@hentzes.de>"]
+version = "1.0.0"
 edition = "2018"
+authors = ["muvlon <muvlon@hentzes.de>"]
+license = "CC0-1.0"
+description = "A utility micro-crate for using Into more ergonomically."
+homepage = "https://github.com/whentze/to_method"
+repository = "https://github.com/whentze/to_method"
 
 [dependencies]
